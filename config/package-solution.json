@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-siteinfo-client-side-solution",
+    "id": "eb592dc3-165d-4d53-be78-f5c0c1e6fa76",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-siteinfo.sppkg"
+  }
+}
