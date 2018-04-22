@@ -109,7 +109,7 @@ export default class SiteInfoWebPart extends BaseClientSideWebPart<ISiteInfoWebP
             content: this.renderLists(web.Lists.results)
           },
         ]
-      })
+      });
     });
   }
 

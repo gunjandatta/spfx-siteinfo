@@ -60,6 +60,34 @@ $REST.Web()
 
 #### Fabric Pivot
 
+```ts
+// Render the tabs
+Fabric.Pivot({
+    el: this.el,
+    tabs: [
+        {
+            isSelected: true,
+            name: "Sub Webs",
+            content: this.renderSubWebs(web.Webs.results)
+        },
+        {
+            name: "Content Types",
+            content: this.renderContentTypes(web.ContentTypes.results)
+        },
+        {
+            name: "Fields",
+            content: this.renderFields(web.Fields.results)
+        },
+        {
+            name: "Lists",
+            content: this.renderLists(web.Lists.results)
+        },
+    ]
+});
+```
+
+#### Fabric Templates
+
 The gd-sprest-js "Fabric" class has a "Templates" class that can be used to render the raw html. We will use this to render the html for the "Lists" component.
 
 ```ts
