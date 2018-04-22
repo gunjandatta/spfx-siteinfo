@@ -9,8 +9,11 @@ gulp serve
 ```
 
 ### Code Examples
+
 Below are the code examples from this demo that are worth highlighting.
+
 #### Import Library
+
 We will be using the gd-sprest and gd-sprest-js libraries for interacting with the REST API and rendering components using the Office Fabric-UI JavaScript framework.
 
 ```ts
