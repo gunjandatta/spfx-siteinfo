@@ -1,5 +1,5 @@
 ## spfx-siteinfo
-![demo](https://github.com/gunjandatta/spfx-siteinfo/blob/master/images/demo.png)
+![demo](https://github.com/gunjandatta/spfx-siteinfo/raw/master/images/demo.png)
 This is a SPFX modern webpart displaying the web information. This example uses the [gd-sprest-js](https://gunjandatta.github.io/js) library.
 
 ### Building the code
