@@ -9,12 +9,10 @@ import { escape } from '@microsoft/sp-lodash-subset';
 import styles from './SiteInfoWebPart.module.scss';
 import * as strings from 'SiteInfoWebPartStrings';
 
+// Import the gd-sprest libraries
 import { Types } from "gd-sprest";
 import { $REST, Fabric } from "gd-sprest-js";
-import "gd-sprest-js/build/lib/css/fabric.min.css";
 import "gd-sprest-js/build/lib/css/fabric.components.min.css";
-import "gd-sprest-js/build/lib/css/gd-sprest-js.css";
-import { contenttype } from 'gd-sprest/build/mapper/list';
 
 export interface ISiteInfoWebPartProps {
   description: string;
@@ -23,6 +21,7 @@ export interface ISiteInfoWebPartProps {
 export default class SiteInfoWebPart extends BaseClientSideWebPart<ISiteInfoWebPartProps> {
   private el: HTMLDivElement = null;
 
+  // Method to render the webpart
   public render(): void {
     // Set the context
     $REST.ContextInfo.setPageContext(this.context.pageContext);
