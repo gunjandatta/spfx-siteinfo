@@ -16,8 +16,8 @@
     "@microsoft/sp-office-ui-fabric-core": "~1.4.0",
     "@microsoft/sp-webpart-base": "~1.4.0",
     "@types/webpack-env": ">=1.12.1 <1.14.0",
-    "gd-sprest": "^3.8.8",
-    "gd-sprest-js": "^1.6.5"
+    "gd-sprest": "^3.9.1",
+    "gd-sprest-js": "^1.7.8"
   },
   "devDependencies": {
     "@microsoft/sp-build-web": "~1.4.0",

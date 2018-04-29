@@ -32,7 +32,7 @@ export default class SiteInfoWebPart extends BaseClientSideWebPart<ISiteInfoWebP
       <div class="${ styles.siteInfo}">
         <div class="${ styles.container}">
           <div class="${ styles.row}">
-            <div id="site-info" class="${ styles.column}">
+            <div id="site-info" class="fabric ${ styles.column}">
             </div>
           </div>
         </div>
